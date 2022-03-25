@@ -13,6 +13,11 @@ $color-buttons: hsl(0, 0%, 95%);
   border: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .button {
   width: 9em;
   min-height: 3rem;
