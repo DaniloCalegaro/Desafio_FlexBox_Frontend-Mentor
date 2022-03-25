@@ -16,6 +16,7 @@ $color-buttons: hsl(0, 0%, 95%);
 a {
   color: inherit;
   text-decoration: inherit;
+  user-select: none;
 }
 
 .button {
