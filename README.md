@@ -17,9 +17,9 @@ Os usuários devem ser capazes de:
 
 - URL Solução : [Desafio Flexbox](https://danilocalegaro.github.io/Desafio_FlexBox_Frontend-Mentor/)
 
-##Meu Processo
+## Meu Processo
 
-###Construído com:
+### Construído com:
 
 - Layout customizado com uso do SASS
 - Flexbox
