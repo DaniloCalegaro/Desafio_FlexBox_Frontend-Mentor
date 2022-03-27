@@ -40,6 +40,15 @@ a {
   }
 }
 
+@mixin define-color($backgroundCard, $backgroundButton, $colorButton) {
+  background-color: $backgroundCard;
+
+  .button {
+    background-color: $backgroundButton;
+    color: $colorButton;
+  }
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -82,28 +91,13 @@ body {
       }
     }
     .sedans {
-      background-color: $color-sedans;
-
-      .button {
-        background-color: $color-buttons;
-        color: $color-sedans;
-      }
+      @include define-color($color-sedans, $color-buttons, $color-sedans);
     }
     .suvs {
-      background-color: $color-suvs;
-
-      .button {
-        background-color: $color-buttons;
-        color: $color-suvs;
-      }
+      @include define-color($color-suvs, $color-buttons, $color-suvs);
     }
     .luxury {
-      background-color: $color-luxury;
-
-      .button {
-        background-color: $color-buttons;
-        color: $color-luxury;
-      }
+      @include define-color($color-luxury, $color-buttons, $color-luxury);
     }
 
     > :first-child {

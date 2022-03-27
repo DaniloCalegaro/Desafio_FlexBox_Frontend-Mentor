@@ -27,7 +27,11 @@ Os usuários devem ser capazes de:
 
 ### Desenvolvimento do conhecimento
 
-A implementação do SASS do um novidade para o projeto e a execução juntamente com o estudo podemos sempre aperfeiçoar
+A implementação do SASS é uma novidade para o mim e a execução juntamente com o estudo podemos sempre aperfeiçoar.
+
+### Para Executar
+
+Como é um projeto simples apenas para treino de layouts, basta abrir o arquivo index.html.
 
 ### Recursos utilizados
 
