@@ -31,7 +31,7 @@ A implementação do SASS é uma novidade para o mim e a execução juntamente c
 
 ### Para Executar
 
-Como é um projeto simples apenas para treino de layouts, basta abrir o arquivo index.html.
+Como é um projeto simples apenas para treino de layouts, basta abrir no navegador o arquivo index.html.
 
 ### Recursos utilizados
 
